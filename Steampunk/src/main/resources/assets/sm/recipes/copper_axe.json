@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OO ",
+        "OI ",
+        " I "
+        
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "sm:copper_ingot"
+        },
+        
+        "I":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "sm:copper_axe",
+        "count": 1
+    }
+
+}

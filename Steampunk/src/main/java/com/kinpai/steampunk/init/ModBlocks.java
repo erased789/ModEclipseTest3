@@ -16,4 +16,5 @@ public class ModBlocks
 	
 	public static final Block COPPER_BLOCK = new CopperBlock("copper_block", Material.IRON);
 	public static final Block STEAM_BLOCK = new BlockBase("steam_block", Material.IRON);
+	public static final Block FURNACE = new BlockBase("furnace", Material.IRON);
 }

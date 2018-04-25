@@ -4,7 +4,7 @@ import com.kinpai.steampunk.entity.EntityKaldoc;
 import com.kinpai.steampunk.entity.model.ModelKaldoc;
 import com.kinpai.steampunk.util.Reference;
 
-import net.minecraft.client.model.ModelChicken;
+//import net.minecraft.client.model.ModelChicken;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;

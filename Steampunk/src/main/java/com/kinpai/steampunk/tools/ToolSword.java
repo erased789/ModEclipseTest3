@@ -5,7 +5,7 @@ import com.kinpai.steampunk.init.ModItems;
 import com.kinpai.steampunk.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item.ToolMaterial;
+//import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemSword;
 
 public class ToolSword extends ItemSword implements IHasModel
@@ -14,8 +14,8 @@ public class ToolSword extends ItemSword implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
-		
+		setCreativeTab(CreativeTabs.COMBAT);
+
 		ModItems.ITEMS.add(this);
 	}
 	@Override

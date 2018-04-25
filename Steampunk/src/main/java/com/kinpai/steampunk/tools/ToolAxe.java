@@ -13,7 +13,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemTool;
-import net.minecraft.item.Item.ToolMaterial;
+//import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemStack;
 
 public class ToolAxe extends ItemTool implements IHasModel
@@ -26,6 +26,7 @@ public class ToolAxe extends ItemTool implements IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.TOOLS);
+		
 		
 		ModItems.ITEMS.add(this);
 	}

@@ -1,6 +1,6 @@
 package com.kinpai.steampunk;
 
-import java.rmi.registry.Registry;
+//import java.rmi.registry.Registry;
 
 import com.kinpai.steampunk.proxy.CommonProxy;
 import com.kinpai.steampunk.util.Reference;

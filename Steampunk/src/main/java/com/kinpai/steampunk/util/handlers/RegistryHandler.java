@@ -4,7 +4,7 @@ import com.kinpai.steampunk.init.ModBlocks;
 import com.kinpai.steampunk.init.ModEntity;
 import com.kinpai.steampunk.init.ModItems;
 import com.kinpai.steampunk.util.IHasModel;
-import com.kinpai.steampunk.util.compat.OreDictionaryCompat;
+//import com.kinpai.steampunk.util.compat.OreDictionaryCompat;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

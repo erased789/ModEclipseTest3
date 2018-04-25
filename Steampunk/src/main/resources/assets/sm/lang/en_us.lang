@@ -12,3 +12,7 @@ item.copper_sword.name=Copper Sword
 //Blocks
 tile.copper_block.name=Copper Block
 tile.steam_block.name=Steam Block
+tile.furnace.name=Furnace
+
+//Entities
+entity.kaldoc.name=Kaldoc

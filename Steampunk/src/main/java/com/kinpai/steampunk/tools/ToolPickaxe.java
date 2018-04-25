@@ -5,7 +5,7 @@ import com.kinpai.steampunk.init.ModItems;
 import com.kinpai.steampunk.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item.ToolMaterial;
+//import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemPickaxe;
 
 public class ToolPickaxe extends ItemPickaxe implements IHasModel

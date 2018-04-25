@@ -10,10 +10,10 @@ import com.kinpai.steampunk.tools.ToolHoe;
 import com.kinpai.steampunk.tools.ToolPickaxe;
 import com.kinpai.steampunk.tools.ToolShovel;
 import com.kinpai.steampunk.tools.ToolSword;
-import com.kinpai.steampunk.util.Reference;
+//import com.kinpai.steampunk.util.Reference;
 
-import net.minecraft.init.SoundEvents;
-import net.minecraft.inventory.EntityEquipmentSlot;
+//import net.minecraft.init.SoundEvents;
+//import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 //import net.minecraft.item.ItemArmor.ArmorMaterial;

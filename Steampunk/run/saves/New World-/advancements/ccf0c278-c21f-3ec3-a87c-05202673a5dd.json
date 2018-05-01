@@ -1,0 +1,28 @@
+{
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2018-04-25 14:45:56 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-04-25 14:45:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2018-04-25 14:44:20 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2018-04-25 14:44:06 -0700",
+      "taiga": "2018-04-25 14:43:03 -0700",
+      "taiga_hills": "2018-04-25 14:44:33 -0700"
+    },
+    "done": false
+  }
+}

@@ -3,6 +3,7 @@ package com.kinpai.steampunk.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.kinpai.steampunk.armour.ArmourBase;
 //import com.kinpai.steampunk.armour.ArmourBase;
 import com.kinpai.steampunk.items.ItemBase;
 import com.kinpai.steampunk.tools.ToolAxe;
@@ -11,11 +12,15 @@ import com.kinpai.steampunk.tools.ToolPickaxe;
 import com.kinpai.steampunk.tools.ToolShovel;
 import com.kinpai.steampunk.tools.ToolSword;
 //import com.kinpai.steampunk.util.Reference;
+import com.kinpai.steampunk.util.Reference;
 
+import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
 //import net.minecraft.init.SoundEvents;
 //import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
 //import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 
@@ -26,7 +31,8 @@ public class ModItems
 	
 	//Materials
 	public static final ToolMaterial TOOL_COPPER = EnumHelper.addToolMaterial("tool_copper", 2, 190, 5, 1.2F, 5);
-	//public static final ArmorMaterial ARMOUR_COPPER = EnumHelper.addArmorMaterial("armour_copper", Reference.MOD_ID + ":copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ToolMaterial TOOL_TIN = EnumHelper.addToolMaterial("tool_tin", 1, 190, 4, 1.2F, 4);
+	public static final ArmorMaterial ARMOUR_COPPER = EnumHelper.addArmorMaterial("armour_copper", Reference.MOD_ID + ":copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
 	//Items
 	public static final Item COPPER_INGOT = new ItemBase("copper_ingot");
@@ -40,10 +46,16 @@ public class ModItems
 	public static final Item COPPER_SHOVEL = new ToolShovel("copper_shovel", TOOL_COPPER);
 	public static final Item COPPER_SWORD = new ToolSword("copper_sword", TOOL_COPPER);
 	
+	public static final Item TIN_AXE = new ToolAxe("tin_axe", TOOL_TIN);
+	public static final Item TIN_HOE = new ToolAxe("tin_hoe", TOOL_TIN);
+	public static final Item TIN_PICKAXE = new ToolAxe("tin_pickaxe", TOOL_TIN);
+	public static final Item TIN_SHOVEL = new ToolAxe("tin_shovel", TOOL_TIN);
+	public static final Item TIN_SWORD = new ToolAxe("tin_sword", TOOL_TIN);
+	
 	
 	//Armour
-	//public static final Item COPPER_HELMET = new ArmourBase("copper_helmet", ARMOUR_COPPER, 1, EntityEquipmentSlot.HEAD);
-	//public static final Item COPPER_CHESTPLATE = new ArmourBase("copper_chestplate", ARMOUR_COPPER, 1, EntityEquipmentSlot.CHEST);
-	//public static final Item COPPER_LEGGINGS = new ArmourBase("copper_leggings", ARMOUR_COPPER, 2, EntityEquipmentSlot.LEGS);
-	//public static final Item COPPER_BOOTS = new ArmourBase("copper_boots", ARMOUR_COPPER, 1, EntityEquipmentSlot.FEET);
+	public static final Item COPPER_HELMET = new ArmourBase("copper_helmet", ARMOUR_COPPER, 1, EntityEquipmentSlot.HEAD);
+	public static final Item COPPER_CHESTPLATE = new ArmourBase("copper_chestplate", ARMOUR_COPPER, 1, EntityEquipmentSlot.CHEST);
+	public static final Item COPPER_LEGGINGS = new ArmourBase("copper_leggings", ARMOUR_COPPER, 2, EntityEquipmentSlot.LEGS);
+	public static final Item COPPER_BOOTS = new ArmourBase("copper_boots", ARMOUR_COPPER, 1, EntityEquipmentSlot.FEET);
 }

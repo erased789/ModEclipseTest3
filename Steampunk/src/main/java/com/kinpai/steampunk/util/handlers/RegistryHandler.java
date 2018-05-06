@@ -1,10 +1,13 @@
 package com.kinpai.steampunk.util.handlers;
 
+import org.ietf.jgss.Oid;
+
 import com.kinpai.steampunk.init.ModBlocks;
 import com.kinpai.steampunk.init.ModEntity;
 import com.kinpai.steampunk.init.ModItems;
 import com.kinpai.steampunk.util.IHasModel;
 //import com.kinpai.steampunk.util.compat.OreDictionaryCompat;
+import com.kinpai.steampunk.world.gen.WorldGenCustomOres;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -12,6 +15,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler 
@@ -64,5 +68,10 @@ public class RegistryHandler
 	{
 		
 	
+	}
+	
+	public static void otherRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 	}
 }

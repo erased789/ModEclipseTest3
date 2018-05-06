@@ -1,100 +1,163 @@
-[15:25:19] [main/INFO] [GradleStart]: Extra: []
-[15:25:19] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/lauvr027/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[15:25:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[15:25:19] [main/INFO] [FML]: Forge Mod Loader version 14.23.3.2655 for Minecraft 1.12.2 loading
-[15:25:19] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_73, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jre1.8.0_73
-[15:25:19] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[15:25:19] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[15:25:19] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[15:25:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[15:25:19] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[15:25:19] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[15:25:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:25:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:25:21] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[15:25:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:25:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[15:25:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[15:25:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[15:25:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[15:25:21] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[15:25:22] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player300
-[15:25:25] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[15:25:25] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[15:25:26] [main/INFO] [FML]: -- System Details --
+[15:13:26] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Starlight/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:13:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:13:26] [main/INFO] [FML]: Forge Mod Loader version 14.23.3.2655 for Minecraft 1.12.2 loading
+[15:13:26] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_172, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_172
+[15:13:26] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[15:13:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[15:13:27] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[15:13:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:13:27] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[15:13:27] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[15:13:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:13:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:13:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:13:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:13:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:13:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:13:31] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[15:13:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:13:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[15:13:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[15:13:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:13:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[15:13:33] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[15:13:36] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player271
+[15:13:44] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:13:44] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[15:13:48] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
-	Operating System: Windows 7 (amd64) version 6.1
-	Java Version: 1.8.0_73, Oracle Corporation
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_172, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 281112552 bytes (268 MB) / 560988160 bytes (535 MB) up to 1890582528 bytes (1803 MB)
+	Memory: 175625744 bytes (167 MB) / 506986496 bytes (483 MB) up to 1405616128 bytes (1340 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 10.18.14.4280' Renderer: 'Intel(R) HD Graphics 4600'
-[15:25:26] [main/INFO] [FML]: MinecraftForge v14.23.3.2655 Initialized
-[15:25:26] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[15:25:26] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[15:25:26] [main/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
-[15:25:26] [main/INFO] [FML]: Searching C:\Users\lauvr027\Desktop\NewEclipseTest2\ModEclipseTest3\Steampunk\run\mods for mods
-[15:25:27] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[15:25:27] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sm] at CLIENT
-[15:25:27] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sm] at SERVER
-[15:25:28] [main/WARN] [FML]: ****************************************
-[15:25:28] [main/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name oreCopper has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
-[15:25:28] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:654)
-[15:25:28] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:640)
-[15:25:28] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:639)
-[15:25:28] [main/WARN] [FML]: *  at com.kinpai.steampunk.util.compat.OreDictionaryCompat.registerOres(OreDictionaryCompat.java:12)
-[15:25:28] [main/WARN] [FML]: *  at com.kinpai.steampunk.Main.<init>(Main.java:30)
-[15:25:28] [main/WARN] [FML]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)...
-[15:25:28] [main/WARN] [FML]: ****************************************
-[15:25:28] [main/WARN] [FML]: ****************************************
-[15:25:28] [main/WARN] [FML]: * A broken ore dictionary registration with name ingotCopper has occurred. It adds an item (type: class com.kinpai.steampunk.items.ItemBase) which is currently unknown to the game registry. This dictionary item can only support a single value when registered with ores like this, and NO I am not going to turn this spam off. Just register your ore dictionary entries after the GameRegistry.
+	GL info: ' Vendor: 'Intel' Version: '4.0.0 - Build 10.18.10.4358' Renderer: 'Intel(R) HD Graphics 4000'
+[15:13:48] [main/INFO] [FML]: MinecraftForge v14.23.3.2655 Initialized
+[15:13:48] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[15:13:48] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[15:13:49] [main/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:13:49] [main/INFO] [FML]: Searching C:\Users\Starlight\Desktop\SteampunkMod\ModEclipseTest3\Steampunk\run\mods for mods
+[15:13:51] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 128307069 nanos
+[15:13:51] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[15:13:52] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sm] at CLIENT
+[15:13:52] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sm] at SERVER
+[15:13:54] [main/WARN] [FML]: ****************************************
+[15:13:54] [main/WARN] [FML]: * Invalid registration attempt for an Ore Dictionary item with name oreCopper has occurred. The registration has been denied to prevent crashes. The mod responsible for the registration needs to correct this.
+[15:13:54] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:654)
+[15:13:54] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:640)
+[15:13:54] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:639)
+[15:13:54] [main/WARN] [FML]: *  at com.kinpai.steampunk.util.compat.OreDictionaryCompat.registerOres(OreDictionaryCompat.java:12)
+[15:13:54] [main/WARN] [FML]: *  at com.kinpai.steampunk.Main.<init>(Main.java:30)
+[15:13:54] [main/WARN] [FML]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)...
+[15:13:54] [main/WARN] [FML]: ****************************************
+[15:13:54] [main/WARN] [FML]: ****************************************
+[15:13:54] [main/WARN] [FML]: * A broken ore dictionary registration with name ingotCopper has occurred. It adds an item (type: class com.kinpai.steampunk.items.ItemBase) which is currently unknown to the game registry. This dictionary item can only support a single value when registered with ores like this, and NO I am not going to turn this spam off. Just register your ore dictionary entries after the GameRegistry.
 TO USERS: YES this is a BUG in the mod Steampunk Mod report it to them!
-[15:25:28] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:668)
-[15:25:28] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:640)
-[15:25:28] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:638)
-[15:25:28] [main/WARN] [FML]: *  at com.kinpai.steampunk.util.compat.OreDictionaryCompat.registerOres(OreDictionaryCompat.java:13)
-[15:25:28] [main/WARN] [FML]: *  at com.kinpai.steampunk.Main.<init>(Main.java:30)
-[15:25:28] [main/WARN] [FML]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)...
-[15:25:28] [main/WARN] [FML]: ****************************************
-[15:25:28] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steampunk Mod
-[15:25:28] [main/INFO] [FML]: Processing ObjectHolder annotations
-[15:25:28] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[15:25:28] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[15:25:28] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[15:25:28] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[15:25:28] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[15:25:28] [main/INFO] [FML]: Applying holder lookups
-[15:25:28] [main/INFO] [FML]: Holder lookups applied
-[15:25:28] [main/INFO] [FML]: Applying holder lookups
-[15:25:28] [main/INFO] [FML]: Holder lookups applied
-[15:25:28] [main/INFO] [FML]: Applying holder lookups
-[15:25:28] [main/INFO] [FML]: Holder lookups applied
-[15:25:28] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 43766391 nanos
-[15:25:28] [main/INFO] [FML]: Applying holder lookups
-[15:25:28] [main/INFO] [FML]: Holder lookups applied
-[15:25:28] [main/INFO] [FML]: Injecting itemstacks
-[15:25:28] [main/INFO] [FML]: Itemstack injection complete
-[15:25:28] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[15:25:30] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[15:25:30] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[15:25:30] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:25:31] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[15:25:31] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[15:25:34] [main/INFO] [FML]: Max texture size: 8192
-[15:25:34] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_boots#inventory for item "sm:copper_boots", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:item/copper_boots with loader VanillaLoader.INSTANCE, skipping
+[15:13:54] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOreImpl(OreDictionary.java:668)
+[15:13:54] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:640)
+[15:13:54] [main/WARN] [FML]: *  at net.minecraftforge.oredict.OreDictionary.registerOre(OreDictionary.java:638)
+[15:13:54] [main/WARN] [FML]: *  at com.kinpai.steampunk.util.compat.OreDictionaryCompat.registerOres(OreDictionaryCompat.java:13)
+[15:13:54] [main/WARN] [FML]: *  at com.kinpai.steampunk.Main.<init>(Main.java:30)
+[15:13:54] [main/WARN] [FML]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)...
+[15:13:54] [main/WARN] [FML]: ****************************************
+[15:13:54] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steampunk Mod
+[15:13:55] [main/INFO] [FML]: Processing ObjectHolder annotations
+[15:13:55] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[15:13:55] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[15:13:55] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[15:13:55] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[15:13:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[15:13:55] [main/INFO] [FML]: Applying holder lookups
+[15:13:55] [main/INFO] [FML]: Holder lookups applied
+[15:13:55] [main/INFO] [FML]: Applying holder lookups
+[15:13:55] [main/INFO] [FML]: Holder lookups applied
+[15:13:55] [main/INFO] [FML]: Applying holder lookups
+[15:13:55] [main/INFO] [FML]: Holder lookups applied
+[15:13:55] [main/INFO] [FML]: Applying holder lookups
+[15:13:55] [main/INFO] [FML]: Holder lookups applied
+[15:13:55] [main/INFO] [FML]: Injecting itemstacks
+[15:13:55] [main/INFO] [FML]: Itemstack injection complete
+[15:13:55] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[15:14:46] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[15:14:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[15:14:46] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:14:47] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[15:14:47] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[15:14:55] [main/INFO] [FML]: Max texture size: 8192
+[15:14:55] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[15:14:57] [main/ERROR] [FML]: Exception loading model for variant sm:ore_end#variant=copper for blockstate "sm:ore_end[variant=copper]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:ore_end#variant=copper with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:248) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:236) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:163) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1189) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[15:14:57] [main/ERROR] [FML]: Exception loading blockstate for the variant sm:ore_end#variant=copper: 
+java.lang.Exception: Could not load model definition for variant sm:ore_end
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:281) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:236) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:163) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model sm:blockstates/ore_end.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:277) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: sm:blockstates/ore_end.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:277) ~[ModelLoader.class:?]
+	... 20 more
+[15:14:57] [main/ERROR] [FML]: Exception loading model for variant sm:ore_end_tin#inventory for item "sm:ore_end", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:item/ore_end_tin with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:314) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
@@ -104,19 +167,19 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: sm:models/item/copper_boots.json
+Caused by: java.io.FileNotFoundException: sm:models/item/ore_end_tin.json
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
@@ -124,8 +187,8 @@ Caused by: java.io.FileNotFoundException: sm:models/item/copper_boots.json
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:880) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_boots#inventory for item "sm:copper_boots", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:copper_boots#inventory with loader VariantLoader.INSTANCE, skipping
+[15:14:57] [main/ERROR] [FML]: Exception loading model for variant sm:ore_end_tin#inventory for item "sm:ore_end", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:ore_end_tin#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:322) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
@@ -135,16 +198,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
 Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
@@ -152,125 +215,71 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1189) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_chestplate#inventory for item "sm:copper_chestplate", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:item/copper_chestplate with loader VanillaLoader.INSTANCE, skipping
+[15:14:57] [main/ERROR] [FML]: Exception loading model for variant sm:ore_nether#variant=tin for blockstate "sm:ore_nether[variant=tin]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:ore_nether#variant=tin with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:314) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:164) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:248) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:236) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:163) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: sm:models/item/copper_chestplate.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:130) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:880) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_chestplate#inventory for item "sm:copper_chestplate", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:copper_chestplate#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:322) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:164) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
 Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
 	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1189) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
-	... 20 more
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_leggings#inventory for item "sm:copper_leggings", normal location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:item/copper_leggings with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:314) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:164) ~[ModelLoader.class:?]
+	... 21 more
+[15:14:57] [main/ERROR] [FML]: Exception loading blockstate for the variant sm:ore_nether#variant=tin: 
+java.lang.Exception: Could not load model definition for variant sm:ore_nether
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:281) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:236) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:163) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: java.io.FileNotFoundException: sm:models/item/copper_leggings.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:130) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:880) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model sm:blockstates/ore_nether.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:277) ~[ModelLoader.class:?]
 	... 20 more
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_leggings#inventory for item "sm:copper_leggings", blockstate location exception: 
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:copper_leggings#inventory with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:322) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:164) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
-	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1189) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+Caused by: java.io.FileNotFoundException: sm:blockstates/ore_nether.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:277) ~[ModelLoader.class:?]
 	... 20 more
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_helmet#inventory for item "sm:copper_helmet", normal location exception: 
+[15:14:57] [main/ERROR] [FML]: Exception loading model for variant sm:copper_helmet#inventory for item "sm:copper_helmet", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:item/copper_helmet with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:314) ~[ModelLoader.class:?]
@@ -281,16 +290,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
 Caused by: java.io.FileNotFoundException: sm:models/item/copper_helmet.json
@@ -301,7 +310,7 @@ Caused by: java.io.FileNotFoundException: sm:models/item/copper_helmet.json
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:880) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[15:25:35] [main/ERROR] [FML]: Exception loading model for variant sm:copper_helmet#inventory for item "sm:copper_helmet", blockstate location exception: 
+[15:14:57] [main/ERROR] [FML]: Exception loading model for variant sm:copper_helmet#inventory for item "sm:copper_helmet", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model sm:copper_helmet#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:322) ~[ModelLoader.class:?]
@@ -312,16 +321,16 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
 	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
 	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_73]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_73]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_73]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_172]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_172]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_172]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
 Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
@@ -329,40 +338,41 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1189) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 20 more
-[15:25:35] [main/FATAL] [FML]: Suppressed additional 0 model loading errors for domain sm
-[15:25:36] [main/INFO] [FML]: Applying holder lookups
-[15:25:36] [main/INFO] [FML]: Holder lookups applied
-[15:25:36] [main/INFO] [FML]: Injecting itemstacks
-[15:25:36] [main/INFO] [FML]: Itemstack injection complete
-[15:25:36] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[15:25:36] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[15:25:36] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[15:25:37] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[15:25:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[15:25:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[15:25:39] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[15:25:39] [Server thread/INFO] [FML]: Applying holder lookups
-[15:25:39] [Server thread/INFO] [FML]: Holder lookups applied
-[15:25:40] [Server thread/INFO] [FML]: Loading dimension 0 (ModTest) (net.minecraft.server.integrated.IntegratedServer@35ced6b9)
-[15:25:40] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[15:25:40] [Server thread/INFO] [FML]: Loading dimension 1 (ModTest) (net.minecraft.server.integrated.IntegratedServer@35ced6b9)
-[15:25:40] [Server thread/INFO] [FML]: Loading dimension -1 (ModTest) (net.minecraft.server.integrated.IntegratedServer@35ced6b9)
-[15:25:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[15:25:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%
-[15:25:42] [Server thread/INFO] [FML]: Unloading dimension -1
-[15:25:42] [Server thread/INFO] [FML]: Unloading dimension 1
-[15:25:42] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[15:25:43] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[15:25:43] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[15:25:43] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.3.2655,sm@1.2,mcp@9.42
-[15:25:43] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[15:25:43] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[15:25:43] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player300[local:E:0c03176b] logged in with entity id 434 at (-224.4460769625942, 71.0, 68.02943608845337)
-[15:25:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player300 joined the game
-[15:25:44] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[15:25:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ModTest'/overworld
-[15:25:44] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 21 advancements
-[15:25:44] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@3c77d57e[id=dc5bf89f-805c-3c6b-8f75-15e42fa5be8f,name=Player300,properties={},legacy=false]
+[15:14:57] [main/FATAL] [FML]: Suppressed additional 8 model loading errors for domain sm
+[15:15:01] [main/INFO] [FML]: Applying holder lookups
+[15:15:01] [main/INFO] [FML]: Holder lookups applied
+[15:15:01] [main/INFO] [FML]: Injecting itemstacks
+[15:15:01] [main/INFO] [FML]: Itemstack injection complete
+[15:15:01] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[15:15:01] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[15:15:01] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[15:15:03] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[15:15:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[15:15:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[15:15:50] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[15:15:51] [Server thread/INFO] [FML]: Applying holder lookups
+[15:15:51] [Server thread/INFO] [FML]: Holder lookups applied
+[15:15:51] [Server thread/INFO] [FML]: Loading dimension 0 (Ore Gen Test) (net.minecraft.server.integrated.IntegratedServer@35648e95)
+[15:15:52] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[15:15:52] [Server thread/INFO] [FML]: Loading dimension 1 (Ore Gen Test) (net.minecraft.server.integrated.IntegratedServer@35648e95)
+[15:15:52] [Server thread/INFO] [FML]: Loading dimension -1 (Ore Gen Test) (net.minecraft.server.integrated.IntegratedServer@35648e95)
+[15:15:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[15:15:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[15:15:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%
+[15:15:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
+[15:15:56] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:15:56] [Server thread/INFO] [FML]: Unloading dimension 1
+[15:15:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[15:16:00] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[15:16:00] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[15:16:00] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.3.2655,sm@1.2,mcp@9.42
+[15:16:00] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[15:16:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:16:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player271[local:E:dd67471f] logged in with entity id 300 at (-42.3697954827452, 60.0, 47.896524114706295)
+[15:16:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player271 joined the game
+[15:16:02] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:16:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Ore Gen Test'/overworld
+[15:16:03] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@77dea557[id=d0a046a3-d4b8-3312-bf51-44dcee5c19ba,name=Player271,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -379,23 +389,78 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
 	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3177) [Minecraft.class:?]
 	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_73]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_73]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_73]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_73]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_73]
-[15:26:23] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[15:26:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ModTest'/overworld
-[15:26:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[15:26:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[15:26:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player300 lost connection: Disconnected
-[15:26:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player300 left the game
-[15:26:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[15:26:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[15:26:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ModTest'/overworld
-[15:26:24] [Server thread/INFO] [FML]: Unloading dimension 0
-[15:26:24] [Server thread/INFO] [FML]: Applying holder lookups
-[15:26:24] [Server thread/INFO] [FML]: Holder lookups applied
-[15:26:28] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[15:26:28] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[15:26:28] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_172]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_172]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_172]
+[15:16:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3172ms behind, skipping 63 tick(s)
+[15:16:07] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:16:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Ore Gen Test'/overworld
+[15:16:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:16:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:16:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player271 lost connection: Disconnected
+[15:16:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player271 left the game
+[15:16:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[15:16:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:16:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Ore Gen Test'/overworld
+[15:16:10] [Server thread/INFO] [FML]: Unloading dimension 0
+[15:16:11] [Server thread/INFO] [FML]: Applying holder lookups
+[15:16:11] [Server thread/INFO] [FML]: Holder lookups applied
+[15:16:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[15:16:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[15:16:24] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[15:16:25] [Server thread/INFO] [FML]: Applying holder lookups
+[15:16:25] [Server thread/INFO] [FML]: Holder lookups applied
+[15:16:25] [Server thread/INFO] [FML]: Loading dimension 0 (Ore Gen Test 2) (net.minecraft.server.integrated.IntegratedServer@56bb3d0f)
+[15:16:25] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[15:16:26] [Server thread/INFO] [FML]: Loading dimension 1 (Ore Gen Test 2) (net.minecraft.server.integrated.IntegratedServer@56bb3d0f)
+[15:16:26] [Server thread/INFO] [FML]: Loading dimension -1 (Ore Gen Test 2) (net.minecraft.server.integrated.IntegratedServer@56bb3d0f)
+[15:16:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[15:16:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%
+[15:16:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%
+[15:16:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[15:16:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
+[15:16:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%
+[15:16:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 38%
+[15:16:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
+[15:16:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 60%
+[15:16:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
+[15:16:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 82%
+[15:16:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 94%
+[15:16:38] [Server thread/INFO] [FML]: Unloading dimension -1
+[15:16:38] [Server thread/INFO] [FML]: Unloading dimension 1
+[15:16:38] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[15:16:38] [Netty Local Client IO #1/INFO] [FML]: Server protocol version 2
+[15:16:38] [Netty Server IO #3/INFO] [FML]: Client protocol version 2
+[15:16:38] [Netty Server IO #3/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.3.2655,sm@1.2,mcp@9.42
+[15:16:38] [Netty Local Client IO #1/INFO] [FML]: [Netty Local Client IO #1] Client side modded connection established
+[15:16:38] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[15:16:38] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player271[local:E:b6d53925] logged in with entity id 552 at (-42.5, 62.0, 152.5)
+[15:16:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player271 joined the game
+[15:16:40] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 7 advancements
+[15:16:40] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2201ms behind, skipping 44 tick(s)
+[15:17:14] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 14 advancements
+[15:19:24] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 25 advancements
+[15:19:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player271: Set own game mode to Survival Mode]
+[15:19:59] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
+[15:20:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player271: Set own game mode to Creative Mode]
+[15:20:54] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
+[15:25:05] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 30 advancements
+[15:25:31] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 31 advancements
+[15:32:50] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 48 advancements
+[15:36:32] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[15:36:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Ore Gen Test 2'/overworld
+[15:36:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[15:36:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[15:36:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player271 lost connection: Disconnected
+[15:36:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player271 left the game
+[15:36:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[15:36:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[15:36:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'Ore Gen Test 2'/overworld
+[15:36:33] [Server thread/INFO] [FML]: Unloading dimension 0
+[15:36:33] [Server thread/INFO] [FML]: Applying holder lookups
+[15:36:33] [Server thread/INFO] [FML]: Holder lookups applied
+[15:36:36] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[15:36:36] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[15:36:37] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

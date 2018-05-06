@@ -47,10 +47,10 @@ public class ModItems
 	public static final Item COPPER_SWORD = new ToolSword("copper_sword", TOOL_COPPER);
 	
 	public static final Item TIN_AXE = new ToolAxe("tin_axe", TOOL_TIN);
-	public static final Item TIN_HOE = new ToolAxe("tin_hoe", TOOL_TIN);
-	public static final Item TIN_PICKAXE = new ToolAxe("tin_pickaxe", TOOL_TIN);
-	public static final Item TIN_SHOVEL = new ToolAxe("tin_shovel", TOOL_TIN);
-	public static final Item TIN_SWORD = new ToolAxe("tin_sword", TOOL_TIN);
+	public static final Item TIN_HOE = new ToolHoe("tin_hoe", TOOL_TIN);
+	public static final Item TIN_PICKAXE = new ToolPickaxe("tin_pickaxe", TOOL_TIN);
+	public static final Item TIN_SHOVEL = new ToolShovel("tin_shovel", TOOL_TIN);
+	public static final Item TIN_SWORD = new ToolSword("tin_sword", TOOL_TIN);
 	
 	
 	//Armour

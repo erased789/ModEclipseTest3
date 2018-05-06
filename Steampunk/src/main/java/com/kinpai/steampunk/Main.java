@@ -25,7 +25,7 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event) {RegistryHandler.preInitRegistries();}
+	public static void PreInit(FMLPreInitializationEvent event) {RegistryHandler.preInitRegistries(); RegistryHandler.otherRegistries();}
 	{
 		OreDictionaryCompat.registerOres();
 	}

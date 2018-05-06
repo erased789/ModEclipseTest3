@@ -1,0 +1,14 @@
+{
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-05-05 18:29:27 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "savanna": "2018-05-05 18:29:00 -0700"
+    },
+    "done": false
+  }
+}

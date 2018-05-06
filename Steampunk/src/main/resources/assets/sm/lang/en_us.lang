@@ -18,6 +18,10 @@ item.tin_sword.name=Tin Sword
 tile.copper_block.name=Copper Block
 tile.steam_block.name=Steam Block
 tile.furnace.name=Furnace
+tile.ore_overworld_copper.name=Copper Ore
+tile.ore_overworld_tin.name=Tin Ore
+
+
 
 //Entities
 entity.kaldoc.name=Kaldoc

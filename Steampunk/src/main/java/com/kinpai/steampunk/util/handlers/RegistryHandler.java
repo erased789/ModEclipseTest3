@@ -2,6 +2,7 @@ package com.kinpai.steampunk.util.handlers;
 
 import org.ietf.jgss.Oid;
 
+import com.kinpai.steampunk.Main;
 import com.kinpai.steampunk.init.ModBlocks;
 import com.kinpai.steampunk.init.ModEntity;
 import com.kinpai.steampunk.init.ModItems;
@@ -15,6 +16,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
@@ -30,6 +32,7 @@ public class RegistryHandler
 	public static void onBlockRegister(RegistryEvent.Register<Block> event)
 	{
 		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+		TileEntityHandler.registerTileEntities();
 	}
 	
 	@SubscribeEvent
@@ -61,7 +64,7 @@ public class RegistryHandler
 	
 	public static void initRegistries()
 	{
-		
+		NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, new GuiHandler());
 	}
 	
 	public static void postInitRegistries()

@@ -1,0 +1,13 @@
+{
+   "parent": "block/orientable",
+   "textures": 
+   {
+       "particle": "sm:blocks/steampunk_furnace_front_off",
+       "up": "sm:blocks/steampunk_furnace_side_east",
+       "down": "sm:blocks/steampunk_furnace_front_off",
+       "north": "sm:blocks/steampunk_furnace_front_off",
+       "east": "sm:blocks/steampunk_furnace_side_east",
+       "south": "sm:blocks/steampunk_furnace_side_south",
+       "west": "sm:blocks/steampunk_furnace_side_west"
+   }
+}

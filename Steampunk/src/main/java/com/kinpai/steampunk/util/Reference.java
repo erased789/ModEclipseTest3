@@ -11,4 +11,6 @@ public class Reference {
 	
 	public static final int ENTITY_KALDOC = 123;
 	
+	public static final int GUI_STEAMPUNK_FURNACE = 0;
+	
 }

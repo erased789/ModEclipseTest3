@@ -1,0 +1,14 @@
+{
+	"variants":
+	{
+		"burning=false,facing=north": { "model": "sm:steampunk_furnace" },
+		"burning=false,facing=east": {	"model": "sm:steampunk_furnace", "y": 90 },
+		"burning=false,facing=south": {	"model": "sm:steampunk_furnace", "y": 180 },
+		"burning=false,facing=west": {	"model": "sm:steampunk_furnace", "y": 270 },
+		"burning=true,facing=north": {	"model": "sm:lit_steampunk_furnace" },
+		"burning=true,facing=east": {	"model": "sm:lit_steampunk_furnace", "y": 90 },
+		"burning=true,facing=south": {	"model": "sm:lit_steampunk_furnace", "y": 180 },
+		"burning=true,facing=west": {	"model": "sm:lit_steampunk_furnace", "y": 270 }
+	}
+
+}

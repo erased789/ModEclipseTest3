@@ -11,6 +11,7 @@ import com.kinpai.steampunk.init.ModItems;
 
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 
@@ -27,10 +28,14 @@ public class SteampunkFurnaceRecipes
 	
 	private SteampunkFurnaceRecipes() 
 	{
-		addSteampunkRecipe(new ItemStack(ModBlocks.COPPER_BLOCK), new ItemStack(ModBlocks.BARREL), new ItemStack(ModBlocks.STEAMPUNK_FURNACE), 5.0F);
+		addSteampunkRecipe(new ItemStack(Blocks.IRON_BLOCK), new ItemStack(Blocks.IRON_BLOCK), new ItemStack(ModBlocks.STEAMPUNK_FURNACE), 5.0F);
 		addSteampunkRecipe(new ItemStack(ModBlocks.ORE_OVERWORLD), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.COPPER_INGOT), 5.0F);
-		addSteampunkRecipe(new ItemStack(ModBlocks.COPPER_ORE_SMELTABLE), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.COPPER_INGOT), 5.0F);
+		addSteampunkRecipe(new ItemStack(ModBlocks.COPPER_ORE_SMELTABLE), new ItemStack(ModBlocks.COPPER_ORE_SMELTABLE), new ItemStack(ModItems.COPPER_INGOT, 2), 5.0F);
 		addSteampunkRecipe(new ItemStack(ModBlocks.TIN_ORE_SMELTABLE), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.TIN_SWORD), 5.0F);
+		addSteampunkRecipe(new ItemStack(Blocks.IRON_ORE), new ItemStack(Blocks.IRON_ORE), new ItemStack(Items.IRON_INGOT, 2), 5.0F);
+		addSteampunkRecipe(new ItemStack(Blocks.GOLD_ORE), new ItemStack(Blocks.GOLD_ORE), new ItemStack(Items.GOLD_INGOT, 2), 5.0F);
+		//addSteampunkRecipe(new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.BRONZE_INGOT, 2), 5.0F);
+		//addSteampunkRecipe(new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.BRONZE_INGOT, 2), 5.0F);
 	}
 
 	

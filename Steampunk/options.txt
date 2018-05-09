@@ -2,10 +2,17 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
+<<<<<<< HEAD
 gamma:0.0
 saturation:0.0
 renderDistance:12
 guiScale:0
+=======
+gamma:1.0
+saturation:0.0
+renderDistance:12
+guiScale:3
+>>>>>>> 19780d388fa82633b0ccd5f3da8059ddf9795dc7
 particles:0
 bobView:true
 anaglyph3d:false

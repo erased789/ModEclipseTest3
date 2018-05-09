@@ -227,7 +227,7 @@ public class TileEntitySteampunkFurnace extends TileEntity implements IInventory
 		if(((ItemStack)this.inventory.get(0)).isEmpty() || ((ItemStack)this.inventory.get(1)).isEmpty()) return false;
 		else 
 		{
-			ItemStack result = SteampunkFurnaceRecipes.getInstance().getSinteringResult((ItemStack)this.inventory.get(0), (ItemStack)this.inventory.get(1));	
+			ItemStack result = SteampunkFurnaceRecipes.getInstance().getSteampunkResult((ItemStack)this.inventory.get(0), (ItemStack)this.inventory.get(1));	
 			if(result.isEmpty()) return false;
 			else
 			{
@@ -246,7 +246,7 @@ public class TileEntitySteampunkFurnace extends TileEntity implements IInventory
 		{
 			ItemStack input1 = (ItemStack)this.inventory.get(0);
 			ItemStack input2 = (ItemStack)this.inventory.get(1);
-			ItemStack result = SteampunkFurnaceRecipes.getInstance().getSinteringResult(input1, input2);
+			ItemStack result = SteampunkFurnaceRecipes.getInstance().getSteampunkResult(input1, input2);
 			ItemStack output = (ItemStack)this.inventory.get(3);
 			
 			if(output.isEmpty()) this.inventory.set(3, result.copy());

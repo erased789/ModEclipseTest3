@@ -30,18 +30,19 @@ public class SteampunkFurnaceRecipes
 		addSteampunkRecipe(new ItemStack(ModBlocks.COPPER_BLOCK), new ItemStack(ModBlocks.BARREL), new ItemStack(ModBlocks.STEAMPUNK_FURNACE), 5.0F);
 		addSteampunkRecipe(new ItemStack(ModBlocks.ORE_OVERWORLD), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.COPPER_INGOT), 5.0F);
 		addSteampunkRecipe(new ItemStack(ModBlocks.COPPER_ORE_SMELTABLE), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.COPPER_INGOT), 5.0F);
-		addSteampunkRecipe(new ItemStack(ModBlocks.TIN_ORE_SMELTABLE), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.TIN_SWORD), 5.0F);
+		addSteampunkRecipe(new ItemStack(ModBlocks.TIN_ORE_SMELTABLE, 3), new ItemStack(ModBlocks.BARREL, 3), new ItemStack(ModItems.TIN_SWORD), 5.0F);
+		
 	}
 
 	
 	public void addSteampunkRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience) 
 	{
-		if(getSinteringResult(input1, input2) != ItemStack.EMPTY) return;
+		if(getSteampunkResult(input1, input2) != ItemStack.EMPTY) return;
 		this.smeltingList.put(input1, input2, result);
 		this.experienceList.put(result, Float.valueOf(experience));
 	}
 	
-	public ItemStack getSinteringResult(ItemStack input1, ItemStack input2) 
+	public ItemStack getSteampunkResult(ItemStack input1, ItemStack input2) 
 	{
 		for(Entry<ItemStack, Map<ItemStack, ItemStack>> entry : this.smeltingList.columnMap().entrySet()) 
 		{
@@ -59,6 +60,7 @@ public class SteampunkFurnaceRecipes
 		return ItemStack.EMPTY;
 	}
 	
+	
 	private boolean compareItemStacks(ItemStack stack1, ItemStack stack2)
 	{
 		return stack2.getItem() == stack1.getItem() && (stack2.getMetadata() == 32767 || stack2.getMetadata() == stack1.getMetadata());
@@ -69,7 +71,7 @@ public class SteampunkFurnaceRecipes
 		return this.smeltingList;
 	}
 	
-	public float getSinteringExperience(ItemStack stack)
+	public float getSteampunkExperience(ItemStack stack)
 	{
 		for (Entry<ItemStack, Float> entry : this.experienceList.entrySet()) 
 		{

@@ -23,7 +23,7 @@ tile.ore_overworld_tin.name=Tin Ore
 tile.steampunk_furnace.name=Steampunk Furnace
 tile.copper_ore_smeltable.name=Copper Ore S
 tile.tin_ore_smeltable.name=Tin Ore S
-
+container.steampunk_furnace=Steampunk Furnace
 
 
 //Entities

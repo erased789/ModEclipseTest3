@@ -20,6 +20,7 @@ public class CopperBlock extends BlockBase
 		setLightLevel(1.0f);
 		//setLightOpacity();
 		//setBlockUnbreakable();
+		
 	}
 	
 	

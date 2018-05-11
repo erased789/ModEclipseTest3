@@ -317,7 +317,7 @@ public class TileEntitySteampunkFurnace extends TileEntity implements IInventory
 	
 	public String getGuiID() 
 	{
-		return "tm:sintering_furnace";
+		return "tm:steampunk_furnace";
 	}
 
 	@Override

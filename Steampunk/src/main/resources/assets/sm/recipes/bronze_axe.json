@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "OO ",
+        "OI ",
+        " I "
+        
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "sm:bronze_ingot"
+        },
+        
+        "I":
+        {
+            "item": "minecraft:stick"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "sm:bronze_axe",
+        "count": 1
+    }
+
+}

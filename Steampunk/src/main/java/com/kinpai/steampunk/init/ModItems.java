@@ -30,14 +30,17 @@ public class ModItems
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	//Materials
+	public static final ToolMaterial TOOL_BRONZE = EnumHelper.addToolMaterial("tool_copper", 2, 190, 5, 1.2F, 5);
 	public static final ToolMaterial TOOL_COPPER = EnumHelper.addToolMaterial("tool_copper", 2, 190, 5, 1.2F, 5);
 	public static final ToolMaterial TOOL_TIN = EnumHelper.addToolMaterial("tool_tin", 1, 190, 4, 1.2F, 4);
-	public static final ArmorMaterial ARMOUR_COPPER = EnumHelper.addArmorMaterial("armour_copper", Reference.MOD_ID + ":copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial ARMOUR_COPPER = EnumHelper.addArmorMaterial("armour_copper",
+			Reference.MOD_ID + ":copper", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
 	//Items
 	public static final Item COPPER_INGOT = new ItemBase("copper_ingot");
 	public static final Item WRENCH = new ItemBase("wrench");
 	public static final Item STEAM = new ItemBase("steam");
+	
 	
 	//Tools
 	public static final Item COPPER_AXE = new ToolAxe("copper_axe", TOOL_COPPER);
@@ -51,6 +54,12 @@ public class ModItems
 	public static final Item TIN_PICKAXE = new ToolPickaxe("tin_pickaxe", TOOL_TIN);
 	public static final Item TIN_SHOVEL = new ToolShovel("tin_shovel", TOOL_TIN);
 	public static final Item TIN_SWORD = new ToolSword("tin_sword", TOOL_TIN);
+	
+	public static final Item BRONZE_AXE = new ToolAxe("bronze_axe", TOOL_BRONZE);
+	public static final Item BRONZE_HOE = new ToolHoe("bronze_hoe", TOOL_BRONZE);
+	public static final Item BRONZE_PICKAXE = new ToolPickaxe("bronze_pickaxe", TOOL_BRONZE);
+	public static final Item BRONZE_SHOVEL = new ToolShovel("bronze_shovel", TOOL_BRONZE);
+	public static final Item BRONZE_SWORD = new ToolSword("bronze_sword", TOOL_BRONZE);
 	
 	
 	//Armour

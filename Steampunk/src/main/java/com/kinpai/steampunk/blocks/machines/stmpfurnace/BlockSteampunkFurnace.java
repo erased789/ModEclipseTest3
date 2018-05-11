@@ -40,6 +40,7 @@ public class BlockSteampunkFurnace extends BlockBase implements ITileEntityProvi
 		super(name, Material.IRON);
 		setSoundType(SoundType.METAL);
 		this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH).withProperty(BURNING, false));
+		
 	}
 	
 	@Override

@@ -30,18 +30,18 @@ public class SteampunkFurnaceRecipes
 	{
 		addSteampunkRecipe(new ItemStack(Blocks.IRON_BLOCK), new ItemStack(Blocks.IRON_BLOCK), new ItemStack(ModBlocks.STEAMPUNK_FURNACE), 5.0F);
 		addSteampunkRecipe(new ItemStack(ModBlocks.ORE_OVERWORLD), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.COPPER_INGOT), 5.0F);
-<<<<<<< HEAD
+
 		addSteampunkRecipe(new ItemStack(ModBlocks.COPPER_ORE_SMELTABLE), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.COPPER_INGOT), 5.0F);
 		addSteampunkRecipe(new ItemStack(ModBlocks.TIN_ORE_SMELTABLE, 3), new ItemStack(ModBlocks.BARREL, 3), new ItemStack(ModItems.TIN_SWORD), 5.0F);
 		
-=======
+
 		addSteampunkRecipe(new ItemStack(ModBlocks.COPPER_ORE_SMELTABLE), new ItemStack(ModBlocks.COPPER_ORE_SMELTABLE), new ItemStack(ModItems.COPPER_INGOT, 2), 5.0F);
 		addSteampunkRecipe(new ItemStack(ModBlocks.TIN_ORE_SMELTABLE), new ItemStack(ModBlocks.BARREL), new ItemStack(ModItems.TIN_SWORD), 5.0F);
 		addSteampunkRecipe(new ItemStack(Blocks.IRON_ORE), new ItemStack(Blocks.IRON_ORE), new ItemStack(Items.IRON_INGOT, 2), 5.0F);
 		addSteampunkRecipe(new ItemStack(Blocks.GOLD_ORE), new ItemStack(Blocks.GOLD_ORE), new ItemStack(Items.GOLD_INGOT, 2), 5.0F);
 		//addSteampunkRecipe(new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.BRONZE_INGOT, 2), 5.0F);
 		//addSteampunkRecipe(new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.BRONZE_INGOT, 2), 5.0F);
->>>>>>> 19780d388fa82633b0ccd5f3da8059ddf9795dc7
+
 	}
 
 	

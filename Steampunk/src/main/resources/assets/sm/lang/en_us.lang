@@ -13,8 +13,14 @@ item.tin_pickaxe.name=Tin Pickaxe
 item.tin_hoe.name=Tin Hoe
 item.tin_shovel.name=Tin Shovel
 item.tin_sword.name=Tin Sword
+item.bronze_axe.name=Bronze Axe
+item.bronze_hoe.name=Bronze Hoe
+item.bronze_pickaxe.name=Bronze Pickaxe
+item.bronze_shovel.name=Bronze Shovel
+item.bronze_sword.name=Bronze Sword
 
 //Blocks
+tile.bronze_block.name=Bronze Block
 tile.copper_block.name=Copper Block
 tile.steam_block.name=Steam Block
 tile.furnace.name=Furnace

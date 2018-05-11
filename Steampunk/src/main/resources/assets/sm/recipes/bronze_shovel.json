@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " O ",
+        " I ",
+        " I "
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "sm:bronze_ingot"
+        },
+        
+        "I":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "sm:bronze_shovel",
+        "count": 1
+    }
+
+}

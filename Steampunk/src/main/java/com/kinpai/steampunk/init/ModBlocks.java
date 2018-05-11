@@ -22,6 +22,7 @@ public class ModBlocks
 	public static final Block FURNACE = new BlockBase("furnace", Material.IRON);
 	public static final Block BARREL = new BlockBase("barrel", Material.WOOD);
 	public static final Block STEAMPUNK_FURNACE = new BlockSteampunkFurnace("steampunk_furnace");
+	public static final Block BRONZE_BLOCK = new BlockBase("bronze_block", Material.IRON);
 	
 	//Ores
 	public static final Block COPPER_ORE_SMELTABLE = new BlockBase("copper_ore_smeltable", Material.ROCK);

@@ -1,6 +1,8 @@
 
 //Items
 item.copper_ingot.name=Copper Ingot
+item.bronze_ingot.name=Bronze Ingot
+item.tin_ingot.name=Tin Ingot
 item.wrench.name=Wrench
 item.steam.name=Steam
 item.copper_axe.name=Copper Axe
@@ -22,6 +24,7 @@ item.bronze_sword.name=Bronze Sword
 //Blocks
 tile.bronze_block.name=Bronze Block
 tile.copper_block.name=Copper Block
+tile.tin_block.name=Tin Block
 tile.steam_block.name=Steam Block
 tile.furnace.name=Furnace
 tile.ore_overworld_copper.name=Copper Ore

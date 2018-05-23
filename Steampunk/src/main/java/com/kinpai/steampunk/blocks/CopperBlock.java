@@ -17,7 +17,7 @@ public class CopperBlock extends BlockBase
 		setHardness(2.0f);
 		setResistance(30.0f);
 		setHarvestLevel("pickaxe", 2);
-		setLightLevel(1.0f);
+		//setLightLevel(1.0f);
 		//setLightOpacity();
 		//setBlockUnbreakable();
 		

@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.kinpai.steampunk.blocks.BlockBase;
+import com.kinpai.steampunk.blocks.BronzeBlock;
 import com.kinpai.steampunk.blocks.CopperBlock;
 import com.kinpai.steampunk.blocks.ModOres;
+import com.kinpai.steampunk.blocks.TinBlock;
 import com.kinpai.steampunk.blocks.machines.stmpfurnace.BlockSteampunkFurnace;
 
 import net.minecraft.block.Block;
@@ -19,10 +21,10 @@ public class ModBlocks
 	//Blocks
 	public static final Block COPPER_BLOCK = new CopperBlock("copper_block", Material.IRON);
 	public static final Block STEAM_BLOCK = new BlockBase("steam_block", Material.IRON);
-	public static final Block FURNACE = new BlockBase("furnace", Material.IRON);
 	public static final Block BARREL = new BlockBase("barrel", Material.WOOD);
 	public static final Block STEAMPUNK_FURNACE = new BlockSteampunkFurnace("steampunk_furnace");
-	public static final Block BRONZE_BLOCK = new BlockBase("bronze_block", Material.IRON);
+	public static final Block BRONZE_BLOCK = new BronzeBlock("bronze_block", Material.IRON);
+	public static final Block TIN_BLOCK = new TinBlock("tin_block", Material.IRON);
 	
 	//Ores
 	public static final Block COPPER_ORE_SMELTABLE = new BlockBase("copper_ore_smeltable", Material.ROCK);

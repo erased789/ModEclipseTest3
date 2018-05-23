@@ -14,11 +14,13 @@ import com.kinpai.steampunk.tools.ToolSword;
 //import com.kinpai.steampunk.util.Reference;
 import com.kinpai.steampunk.util.Reference;
 
+import net.minecraft.block.material.Material;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 //import net.minecraft.init.SoundEvents;
 //import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 //import net.minecraft.item.ItemArmor.ArmorMaterial;
@@ -38,6 +40,8 @@ public class ModItems
 	
 	//Items
 	public static final Item COPPER_INGOT = new ItemBase("copper_ingot");
+	public static final Item BRONZE_INGOT = new ItemBase("bronze_ingot");
+	public static final Item TIN_INGOT = new ItemBase("tin_ingot");
 	public static final Item WRENCH = new ItemBase("wrench");
 	public static final Item STEAM = new ItemBase("steam");
 	

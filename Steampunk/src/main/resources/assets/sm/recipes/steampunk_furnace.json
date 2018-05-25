@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " O ",
+        "OXO",
+        "SSS"
+    ],
+    
+    "key":
+    {
+        "X":
+        {
+            "item": "minecraft:iron_block"
+        },
+        
+        "O":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        
+        "S":
+        {
+        	"item": "minecraft:stone",
+        	"data": 0
+        }
+    },
+    
+    "result":
+    {
+        "item": "sm:steampunk_furnace",
+        "count": 1
+    }
+
+}
